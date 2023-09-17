@@ -21,4 +21,4 @@ while True:
 print('LISTA DE CLIENTES - BANCO NACIONAL')
 print('|  NOME  |  SALDO  |  CONTA  |')
 for conta, (nome, saldo) in enumerate(zip(lista_clientes, lista_valores), start=1):
-  print(' {}   {}   #{}   '.format(nome,saldo,conta))
+  print('nome{}saldo{}  #{}   '.format(nome,saldo,conta)) #Comentário de teste
