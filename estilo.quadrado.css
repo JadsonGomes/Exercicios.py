@@ -1,0 +1,35 @@
+.quadrado{ 
+    border: 3px solid black; /* Definição da borda e cor da borda*/
+    width: 100px ; /*Definição da largura do quadrado */
+    height: 100px; /*Definição da altura do quadrado*/
+    margin: 10px ; /*Definição de margem para não ficarem colados*/
+    background-color: aqua; /*Definição da cor de fundo do quadrado*/
+    position: absolute; /*Posição absoluta definida para todos ela tem como parãmetro a posição da página*/
+    font-family: Arial, Helvetica, sans-serif; color: white; text-align:center; 
+    /*Acima foi feiro a configuração padrão para a classe (quadrado/genérica)*/
+}
+.quadrado1{
+    left: 0px; 
+    top: 0px;
+    background-color: rgb(236, 8, 236);
+}    
+.quadrado2{
+    left: 0px; /*à esquerda*/
+    bottom: 0px; /*Ao fundo/baixo*/
+    background-color: blue; /*Definição da cor de fundo*/
+} 
+.quadrado3{
+    right: 0px; 
+    bottom: 0px;
+    background-color: brown;
+}
+.quadrado4{
+    right: 0px; /*direita*/
+    top: 0px; /*topo*/
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Acima foram configurados as posições de todos os quadrado pelas suas classes 
+expecífica*/
+/*Mesmo dando como parâmetro 0px eles ainda tem um afastamento pois fois declarada
+na classe genérica o expaçamento de 10px para todos os quadrados*/
